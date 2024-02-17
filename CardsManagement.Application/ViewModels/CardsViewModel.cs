@@ -30,7 +30,7 @@ namespace CardsManagement.Application.ViewModels
         public string Name { get; set; }
         public string Description { get; set; }
         
-        [RegularExpression("^#(?:[0-9a-fA-F]{3}){1,2}$",ErrorMessage ="color code must start with HASH character(#) e.g. #000000")] 
+        [RegularExpression("^#[0-9A-Fa-f]{6}$", ErrorMessage ="Hex color code must start with HASH character(#) e.g. #000000")] 
         public string Color { get; set; }
             
        
@@ -39,7 +39,6 @@ namespace CardsManagement.Application.ViewModels
     {
         public string Name { get; set; }
 
-        [Range(0,7)]
         public string Color { get; set; }
         public string Status { get; set; }
         public DateTime? DateCreated { get; set; }

@@ -150,9 +150,9 @@ builder.Services.AddTransient<IDataRepository, DataRepository>();
 #endregion
 
 #region Services
-builder.Services.AddTransient<ISeedDataService, SeedDataService>();
-builder.Services.AddTransient<IDataService, DataService>();
+builder.Services.AddTransient<ISeedDataService, SeedDataService>(); 
 builder.Services.AddTransient<IUserManagementService, UserManagementService>();
+builder.Services.AddTransient<ICardsManagementService, CardsManagementService>();
 
 #endregion
 

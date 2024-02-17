@@ -47,6 +47,7 @@ namespace CardsManagement.Infrastructure.Data
             base.OnModelCreating(modelBuilder);
 
             #region Tables
+
             #region AppRole
             modelBuilder.Entity<AppRole>(entity =>
             {
@@ -110,6 +111,9 @@ namespace CardsManagement.Infrastructure.Data
                     .HasForeignKey(ur => ur.Owner)
                     .OnDelete(DeleteBehavior.Restrict)
                     .IsRequired();
+
+                entity.Property(x => x.Color)
+                .HasMaxLength(10);
 
                 entity.Property(x => x.Status)
                 .HasMaxLength(100)

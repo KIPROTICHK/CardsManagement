@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -52,7 +53,25 @@ namespace CardsManagement.Application
             }, query.Expression, Expression.Quote(expression));
             return query.Provider.CreateQuery<T>(expression2);
         }
+        public static T CastMyObject<T>(this object j, HashSet<string> ignoreProperties = null)
+        {
+            if (j == null)
+            {
+                return default(T);
+            }
 
+            JsonSerializerSettings jsonSerializerSettings = new JsonSerializerSettings
+            {
+                NullValueHandling = NullValueHandling.Ignore,
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+            };
+            if (ignoreProperties != null)
+            {
+                jsonSerializerSettings.ContractResolver = new JsonIgnoreResolver(ignoreProperties);
+            }
 
+            return JsonConvert.DeserializeObject<T>(JsonConvert.SerializeObject(j, jsonSerializerSettings), jsonSerializerSettings);
+        }
+       
     }
 }
