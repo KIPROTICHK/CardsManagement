@@ -63,12 +63,25 @@
      ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/c3847a7a-8a0f-45a2-bef4-9d9b5c144dc9)
 
 
+#### When bearer is added success, the log logo is dark in color and it is <b>locked</b> and when there is <b>no token, the log icon is not locked</b> as show below
 
-   ## Interacting with Cards Management Endpoint
+![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/fd203a88-7bff-4f71-a32e-0d62100ac8bd)
 
-    ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/a1c01b42-49f1-461f-8fcc-0bfafd502034)
+![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/a1c01b42-49f1-461f-8fcc-0bfafd502034)
 
-   ### 1. Add Card by User
 
+## Interacting with Cards Management Endpoint
+
+
+
+### 1. Add Card by User
+
+#### valid Request
+   ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/82ed5ad2-ccd4-41e0-ae1c-21fed1913a11)
+
+   
+ 
+ #### Valid Response
+  ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/c59b82a1-46f5-423e-ae10-ba52a8879a07)
    
 
