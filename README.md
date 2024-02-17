@@ -84,4 +84,21 @@
  #### Valid Response
   ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/c59b82a1-46f5-423e-ae10-ba52a8879a07)
    
+### 2. Get Cards
 
+#### Highlighted in yellow color are fields that can be searched from the application accordingly. Red cycled fields are for sorting: Sorting Column and Sort Direction can be asc/desc.
+![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/350aa835-d889-4411-9ede-f972a7062808)
+
+##### sorting by field.The field name must match the database table column name. The records changes after applying sort criteria as shown below.
+![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/0dfe0b78-3868-49a4-96c2-fdbbb30f2515)
+
+![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/967ba927-44cc-4eea-88b5-2d809f63e973)
+
+
+ #### Pagination with metadata fields
+ ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/9b5be13a-259a-4f6e-9b85-568ea0cc4d04)
+
+ ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/2a9bdb68-1fd5-46ac-8bab-82855dab6fc7)
+
+ 
+### 3. The rest of APIs are straight forward (descriptive actions)
