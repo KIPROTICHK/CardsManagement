@@ -38,3 +38,17 @@
    
    b. Member access  Email=member@cardsmanagement.test, Password=member@User123
   
+
+
+
+    ## How to obtain token/login
+     1. Use endpoint as show in the screenshot below then supply credentials above. You can interact directly or use any other tool that is capable to Restful API interaction. e.g. POSTMAN     https://www.postman.com/downloads/ 
+
+      ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/1087e46f-a1f1-4844-8353-113fd95624c2)
+
+    ### Successful Login
+     ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/234e9192-dabe-450f-aa95-107038874870)
+
+    ### Check content of the token using the portal https://jwt.io/
+
+     ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/6f36a40a-3dce-44cb-9f79-688a4617a934)
