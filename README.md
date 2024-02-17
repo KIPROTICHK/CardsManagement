@@ -33,6 +33,7 @@
 
    
 7. Use below accounts for login
+   
    a. Admin access  Email=admin@cardsmanagement.test, Password=admin@Admin123
    
    b. Member access  Email=member@cardsmanagement.test, Password=member@User123
