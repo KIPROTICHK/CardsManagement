@@ -1,4 +1,4 @@
-# This is sample cards management using C# .NET 8, with Clean Architecture structure
+![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/701491fc-1c46-466e-877d-27465a1d6574)# This is sample cards management using C# .NET 8, with Clean Architecture structure
 
 ## How to setup the project
 1. Clone the project and run via Visual Studio 2022 for testing purpose. Make sure .NET 8.0 SDK is installed before proceeding.
@@ -52,3 +52,23 @@
     ### Check content of the token using the portal https://jwt.io/
 
      ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/6f36a40a-3dce-44cb-9f79-688a4617a934)
+
+    ### To interact the endpoint via swagger. Follow steps below
+     
+     ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/29abe724-86e0-44ef-b5b2-e717ebeebadc)
+
+
+     ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/f87dc057-6f56-4f6c-ad30-136de2057252)
+
+     ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/c3847a7a-8a0f-45a2-bef4-9d9b5c144dc9)
+
+
+
+   ## Interacting with Cards Management Endpoint
+
+    ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/a1c01b42-49f1-461f-8fcc-0bfafd502034)
+
+   ### 1. Add Card by User
+
+   
+
