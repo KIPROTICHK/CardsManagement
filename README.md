@@ -14,43 +14,22 @@
  
 5. When the application is executed for the first time after database migration, the data for users are seeded as show below
 
-a.commdand prompt
-
-   ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/d8c2495f-f68c-4e5b-ba54-69a523741e66)
-
-
- b. Database confirmation
+   a.commdand prompt
+   
+      ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/d8c2495f-f68c-4e5b-ba54-69a523741e66)
 
 
-   ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/00840c63-438f-41bc-ab00-d5ebac3ddab8)
-
-   ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/7d9750c2-cd11-420f-8199-f5cad221c4c5)
-
-   ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/01282592-5c04-4c12-b6ca-9b81e11d8783)
+    b. Database confirmation
+   
+   
+      ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/00840c63-438f-41bc-ab00-d5ebac3ddab8)
+   
+      ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/7d9750c2-cd11-420f-8199-f5cad221c4c5)
+   
+      ![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/01282592-5c04-4c12-b6ca-9b81e11d8783)
 
    
 6. Use below accounts for login
    a. Admin access  Email=admin@cardsmanagement.test and Password=admin@Admin123
    b. Member access  Email=member@cardsmanagement.test and Password=member@User123
- 
-
-
-
-
-
-<code>
- "SeedAccountSettings": {
-   "AdminAccount": {
-     "Email": "admin@cardsmanagement.test",
-     "Password": "admin@Admin123",
-     "FirstName": "test",
-     "LastName": "admin"
-   },
-   "UserAccount": {
-     "Email": "member@cardsmanagement.test",
-     "Password": "member@User123",
-     "FirstName": "test",
-     "LastName": "member"
-   }
- }
-</code>
+  
