@@ -99,13 +99,13 @@ builder.Services.AddAuthorization(options =>
     options.DefaultPolicy = defaultAuthorizationPolicyBuilder.Build();
 
     #region User
-    options.AddPolicy(Permissions.User, builder =>
+    options.AddPolicy(Permissions.Member, builder =>
     {
         builder.AddRequirements(new PermissionRequirement(new List<PermissionItem>
                         {
                          new PermissionItem
                          {
-                             Value = Permissions.User,
+                             Value = Permissions.Member,
                              Type =PermissionType.role
                          },
 

@@ -88,7 +88,7 @@ namespace CardsManagement.Infrastructure.Service
                 EmailConfirmed = true,
                 PhoneNumber = _seedAccountSettings.UserAccount.PhoneNumber,
                 PhoneNumberConfirmed = true,
-                UserType = UserType.User,
+                UserType = UserType.Member,
                 SecurityStamp = Guid.NewGuid().ToString("D"),
                 FirstName = _seedAccountSettings.UserAccount.FirstName,
                 LastName = _seedAccountSettings.UserAccount.LastName,
@@ -111,7 +111,7 @@ namespace CardsManagement.Infrastructure.Service
                 {
                     await _userManager.AddToRolesAsync(user, new string[]
                      { IdentityData.GetCustomRoles()
-                    .Where(x => x.Name == IdentityData.Roles.User).Select(x => x.Name).FirstOrDefault() });
+                    .Where(x => x.Name == IdentityData.Roles.Member).Select(x => x.Name).FirstOrDefault() });
 
                     _logger.LogInformation($"user seeded successfully with account: {user.Email}\n");
                 }
@@ -140,7 +140,7 @@ namespace CardsManagement.Infrastructure.Service
                     {
                         Name = role.Name,
                         Description = role.Description,
-                        ApplicableToUser = role.ApplicableToUser,
+                        ApplicableToMember = role.ApplicableToMember,
                         ForAdminUser = role.ApplicableToAdmin
                     });
 

@@ -6,4 +6,8 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CardsManagement.Domain\CardsManagement.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

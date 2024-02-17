@@ -9,6 +9,9 @@
             _context = context;
         }
 
-        
+        public IQueryable<Card> GetCards()
+        {
+            return _context.Cards.AsQueryable();
+        }
     }
 }

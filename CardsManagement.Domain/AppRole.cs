@@ -8,7 +8,7 @@ namespace CardsManagement.Domain
     {
         public string Description { get; set; }
         public bool ForAdminUser { get; set; }
-        public bool ApplicableToUser { get; set; }
+        public bool ApplicableToMember { get; set; }
         public virtual ICollection<AppUserRole> UserRoles { get; set; }
 
     }
