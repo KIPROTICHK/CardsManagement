@@ -1,4 +1,4 @@
-![image](https://github.com/KIPROTICHK/CardsManagement/assets/11135927/701491fc-1c46-466e-877d-27465a1d6574)# This is sample cards management using C# .NET 8, with Clean Architecture structure
+# This is sample cards management using C# .NET 8, with Clean Architecture structure
 
 ## How to setup the project
 1. Clone the project and run via Visual Studio 2022 for testing purpose. Make sure .NET 8.0 SDK is installed before proceeding.
