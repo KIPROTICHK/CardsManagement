@@ -1,16 +1,8 @@
 
-using CardsManagement.API.CustomClass.Seed;
-using CardsManagement.Application.Repositories;
-using CardsManagement.Application.Service.Interface;
-using CardsManagement.Domain;
-using CardsManagement.Infrastructure;
-using CardsManagement.Infrastructure.Data;
-using CardsManagement.Infrastructure.Repositories;
-using CardsManagement.Infrastructure.Service;
+
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Formatters;
-using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -160,6 +152,7 @@ builder.Services.AddTransient<IDataRepository, DataRepository>();
 #region Services
 builder.Services.AddTransient<ISeedDataService, SeedDataService>();
 builder.Services.AddTransient<IDataService, DataService>();
+builder.Services.AddTransient<IUserManagementService, UserManagementService>();
 
 #endregion
 

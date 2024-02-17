@@ -12,6 +12,8 @@ namespace CardsManagement.Application
         
         public const string DefaultConnection = nameof(DefaultConnection);
 
+        public   const int TokenHourlyDuration = 12;
+
         public class CardStatuses
         {
             public const string ToDo = "To Do";

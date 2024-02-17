@@ -2,3 +2,11 @@
 global using Microsoft.AspNetCore.Authentication.JwtBearer;
 global using Microsoft.OpenApi.Models;
 global using CardsManagement.Application;
+global using CardsManagement.API.CustomClass.Seed;
+global using CardsManagement.Application.Repositories;
+global using CardsManagement.Application.Service.Interface;
+global using CardsManagement.Domain;
+global using CardsManagement.Infrastructure;
+global using CardsManagement.Infrastructure.Data;
+global using CardsManagement.Infrastructure.Repositories;
+global using CardsManagement.Infrastructure.Service;
